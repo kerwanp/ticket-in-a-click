@@ -24,7 +24,6 @@ jobs:
         run: |
           yarn
           yarn build:prod
-          yarn package
 
       - name: Release
         uses: cycjimmy/semantic-release-action@v2
@@ -37,7 +36,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - id: keydb
-        uses: pozetroninc/github-action-get-latest-release@master
-        with:
-          repository: ${{ github.repository }}

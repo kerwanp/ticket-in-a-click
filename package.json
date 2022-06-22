@@ -9,6 +9,7 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "@types/ua-parser-js": "^0.7.36",
+    "copy-webpack-plugin": "^11.0.0",
     "ts-loader": "^9.3.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.0",

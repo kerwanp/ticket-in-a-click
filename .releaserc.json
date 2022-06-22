@@ -1,47 +1,55 @@
 {
-    "branches": [
-      "main"
+  "branches": ["main"],
+  "ci": false,
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits"
+      }
     ],
-    "ci": false,
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/release-notes-generator",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/github",
-        {
-          "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version} :tada:",
-          "labels": false,
-          "releasedLabels": false,
-          "assets": [
-              { "path": "*.zip", "name": "Ticket In A Click - ${nextRelease.gitTag}.zip", "label": "Ticket In A Click - ${nextRelease.gitTag}" }
-          ]
-        }
-      ],
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "CHANGELOG.md",
-          "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  }
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version} :tada:",
+        "labels": false,
+        "releasedLabels": false,
+        "assets": [
+          {
+            "path": "*.zip",
+            "name": "Ticket In A Click - ${nextRelease.gitTag}.zip",
+            "label": "Ticket In A Click - ${nextRelease.gitTag}"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
+      }
+    ],
+    [
+      "semantic-release-chrome",
+      {
+        "asset": "tioc.zip",
+        "manifestPath": "manifest.json",
+        "extensionId": "himjpfmnkjlapoaclgfhniifnogfcmeh"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "manifest.json"],
+        "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+  ]
+}
