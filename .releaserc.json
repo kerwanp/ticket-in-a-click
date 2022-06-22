@@ -23,7 +23,7 @@
           "labels": false,
           "releasedLabels": false,
           "assets": [
-              { "path": ["dist/**", "public/**", "manifest.json"], "name": "Ticket In A Click - ${nextRelease.gitTag}.zip", "label": "Ticket In A Click - ${nextRelease.gitTag}" }
+              { "path": "*.zip", "name": "Ticket In A Click - ${nextRelease.gitTag}.zip", "label": "Ticket In A Click - ${nextRelease.gitTag}" }
           ]
         }
       ],
