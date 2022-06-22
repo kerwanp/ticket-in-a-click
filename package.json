@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "NODE_ENV=production webpack",
+    "package": "zip -r tioc.zip dist public manifest.json"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.183",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "@types/ua-parser-js": "^0.7.36",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "name": "tioc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.4",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "ua-parser-js": "^1.0.2"
+  }
+}
