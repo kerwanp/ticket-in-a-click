@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/syneki/ticket-in-a-click/compare/v1.0.2...v1.1.0) (2022-06-22)
+
+
+### Features
+
+* setup chrome release ([e34de2c](https://github.com/syneki/ticket-in-a-click/commit/e34de2c177c33f9c42dd26345353894331ab722c))
+
+
+### Bug Fixes
+
+* add env variables ([d3cef4c](https://github.com/syneki/ticket-in-a-click/commit/d3cef4cb97a54b8a01ff0589a39a9d5673ec3e0d))
+* add extra plugin to release ([884c6a1](https://github.com/syneki/ticket-in-a-click/commit/884c6a16e2d19ca0ee4d5bcd8e7d743c235c7b23))
+* releaserc ([1cce59a](https://github.com/syneki/ticket-in-a-click/commit/1cce59ab03d7e5c614d25daddf3374117c92b8b5))
+
 ### [1.0.2](https://github.com/syneki/ticket-in-a-click/compare/v1.0.1...v1.0.2) (2022-06-22)
 
 
