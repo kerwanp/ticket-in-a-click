@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.2](https://github.com/syneki/ticket-in-a-click/compare/v1.1.1...v1.1.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* remove config for manifest ([0b7c561](https://github.com/syneki/ticket-in-a-click/commit/0b7c56147bc470b82d45c7a9c27805c19bd3bf10))
+* remove version from manifest ([a7050b3](https://github.com/syneki/ticket-in-a-click/commit/a7050b35d8d6fa00da72d1535bd1781c66592067))
+
 ### [1.1.1](https://github.com/syneki/ticket-in-a-click/compare/v1.1.0...v1.1.1) (2022-06-22)
 
 
