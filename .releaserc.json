@@ -40,7 +40,6 @@
       "semantic-release-chrome",
       {
         "asset": "tioc.zip",
-        "manifestPath": "manifest.json",
         "extensionId": "himjpfmnkjlapoaclgfhniifnogfcmeh"
       }
     ],
