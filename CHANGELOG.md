@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.4](https://github.com/syneki/ticket-in-a-click/compare/v1.1.3...v1.1.4) (2022-06-22)
+
+
+### Bug Fixes
+
+* change manifest version ([1783b3c](https://github.com/syneki/ticket-in-a-click/commit/1783b3c857a25e5d8643fd59f64f05a08f4eaa7f))
+
 ### [1.1.3](https://github.com/syneki/ticket-in-a-click/compare/v1.1.2...v1.1.3) (2022-06-22)
 
 
