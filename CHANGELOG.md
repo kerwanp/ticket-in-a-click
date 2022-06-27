@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.5](https://github.com/syneki/ticket-in-a-click/compare/v1.1.4...v1.1.5) (2022-06-27)
+
+
+### Bug Fixes
+
+* copy public folder to dist ([3556bf6](https://github.com/syneki/ticket-in-a-click/commit/3556bf66cff3acab1289ada0417ea20e655f9f3a))
+
 ### [1.1.4](https://github.com/syneki/ticket-in-a-click/compare/v1.1.3...v1.1.4) (2022-06-22)
 
 
