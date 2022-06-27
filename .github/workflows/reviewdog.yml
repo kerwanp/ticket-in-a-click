@@ -12,7 +12,8 @@ jobs:
         with:
           reporter: github-pr-review
           github_token: ${{ secrets.github_token }}
-          workdir: src
+          eslint_flags: src
+          level: error
   prettier:
     name: Prettier
     runs-on: ubuntu-latest
@@ -22,4 +23,5 @@ jobs:
         with:
           reporter: github-pr-review
           github_token: ${{ secrets.github_token }}
-          workdir: src
+          prettier_flags: src
+          level: error
