@@ -29,7 +29,7 @@ module.exports = {
       template: "./public/index.html",
     }),
     new CopyPlugin({
-      patterns: ['manifest.json']
+      patterns: ['manifest.json', { from: 'public', to: 'public' }]
     })
   ],
 };
